@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  font-size: 18px;
+  background-color: #80d6ff;
+  color: black;
+  margin: 8px;
+  padding: 12px;
+}
+
+a:hover {
+  background-color: #6598c2;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  margin: 50px/2;
+  padding: 17px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  vertical-align: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 75px;
+      grid-template-rows: 1fr 1fr 75px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+}
+
+.child {
+  width: 100%;
+  height: 30%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#42a5f5), to(#80d6ff));
+  background-image: linear-gradient(#42a5f5, #80d6ff);
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ffffffff;
+  background-color: #FAA09B;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: titulo-animado;
+          animation-name: titulo-animado;
+  margin: 3px;
+  padding: 2px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@-webkit-keyframes titulo-animado {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes titulo-animado {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+hr {
+  border: 3px solid;
+  color: #FAA09B;
+}
+
+h2 {
+  color: #ffffffff;
+  font-size: 22px;
+}
+
+h2 a {
+  color: #ffffffff;
+  font-size: 22px;
+}
+
+h3 {
+  background-color: #FAA09B;
+  color: #ffffffff;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 2px;
+}
+
+footer {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+/*# sourceMappingURL=productos.css.map */

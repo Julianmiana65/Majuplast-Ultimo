@@ -1,0 +1,128 @@
+$bgcolour: #42a5f5;
+$hyfcolour: #80d6ff;
+$descatados: #FAA09B;
+$txtcolor: #ffffffff;
+$titulo: 30px;
+$subtitulo: 22px;
+$texto: 18px;
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav 
+  { text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-size: $texto;
+    background-color: $hyfcolour;
+    color: black;
+    margin: 8px;
+    padding: 12px;
+  }
+  
+  a:hover {
+    background-color: #6598c2;
+    text-decoration: none;
+      list-style: none;
+      list-style-type: none;}
+      
+  
+    a {
+      color: black;
+      text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+      margin: 50px/2;
+      padding: 17px;
+    }
+  
+  body{
+    text-align: center;
+    background-image: linear-gradient(#42a5f5, #80d6ff);
+    text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+  }
+  
+  h1{
+    font-size: $titulo;
+    color: $txtcolor;
+    background-color: $descatados;
+    animation-duration: 2s;
+    animation-name: titulo-animado;
+    padding: 2px;
+    margin-bottom: 25px;
+  }
+  
+  @keyframes titulo-animado {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  h2 {
+    background-color: $descatados;
+    color: white;
+    font-size: $subtitulo;
+    color: $txtcolor;
+    font-size: $subtitulo;
+    margin-bottom: 25px;
+  margin-top: 25px;}
+
+  h2 a {
+    color: $txtcolor;
+    font-size: $subtitulo;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  p{
+    font-size: $texto;
+    font-family: sans-serif;
+    font-stretch:normal;
+    text-align: center;
+    color:  $txtcolor;
+    margin: 50px;
+  }
+
+
+  h3 {
+    background-color: $descatados;
+    color:  $txtcolor;
+    font-size: $texto;
+    margin-top: 25px;
+    padding: 2px;
+  }
+
+
+  .container
+  {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+  }
+  
+
+footer 
+{color: $txtcolor;
+font-size: $texto;
+text-align: center;
+margin-bottom: 750px;}
+
+
+footer ul li
+{
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+}
+
+
+  

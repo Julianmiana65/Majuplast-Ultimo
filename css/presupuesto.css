@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  font-size: 18px;
+  background-color: #80d6ff;
+  color: black;
+  margin: 8px;
+  padding: 12px;
+}
+
+a:hover {
+  background-color: #6598c2;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  margin: 50px/2;
+  padding: 17px;
+}
+
+body {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#42a5f5), to(#80d6ff));
+  background-image: linear-gradient(#42a5f5, #80d6ff);
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ffffffff;
+  background-color: #FAA09B;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: titulo-animado;
+          animation-name: titulo-animado;
+  padding: 2px;
+  margin-bottom: 25px;
+}
+
+@-webkit-keyframes titulo-animado {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes titulo-animado {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  background-color: #FAA09B;
+  color: white;
+  font-size: 22px;
+  color: #ffffffff;
+  font-size: 22px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+h2 a {
+  color: #ffffffff;
+  font-size: 22px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffffff;
+  margin: 50px;
+}
+
+h3 {
+  background-color: #FAA09B;
+  color: #ffffffff;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 2px;
+}
+
+.container {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+}
+
+footer {
+  color: #ffffffff;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 750px;
+}
+
+footer ul li {
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+}
+/*# sourceMappingURL=presupuesto.css.map */

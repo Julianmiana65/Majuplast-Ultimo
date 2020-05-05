@@ -1,0 +1,138 @@
+$bgcolour: #42a5f5;
+$hyfcolour: #80d6ff;
+$descatados: #FAA09B;
+$txtcolor: #ffffffff;
+$titulo: 30px;
+$subtitulo: 22px;
+$texto: 18px;
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav 
+  { text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-size: $texto;
+    background-color: $hyfcolour;
+    color: black;
+    margin: 8px;
+    padding: 12px;
+  }
+  
+  a:hover {
+    background-color: #6598c2;
+    text-decoration: none;
+      list-style: none;
+      list-style-type: none;}
+      
+  
+    a {
+      color: black;
+      text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+      margin: 50px/2;
+      padding: 17px;
+    }
+  img
+  {height: 250px;
+  width: 250px;
+  vertical-align: center;}
+  
+  
+  .grid
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 75px;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+    .child
+    {
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+  
+
+
+  
+  body{
+    text-align: center;
+    background-image: linear-gradient(#42a5f5, #80d6ff);
+    text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+  }
+  
+  h1{
+    font-size: $titulo;
+    color: $txtcolor;
+    background-color: $descatados;
+    animation-duration: 2s;
+    animation-name: titulo-animado;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  @keyframes titulo-animado {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  hr
+  {
+    border: 3px solid;
+    color: $descatados;
+
+  }
+
+  h2 {
+    color: $txtcolor;
+    font-size: $subtitulo;
+  }
+
+  h2 a {
+    color: $txtcolor;
+    font-size: $subtitulo;
+  }
+
+
+  h3 {
+    background-color: $descatados;
+    color:  $txtcolor;
+    font-size: $texto;
+    margin-top: 25px;
+    padding: 2px;
+  }
+  
+ 
+  footer
+  {color: white;
+  font-size: $texto;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px; }
+
+  footer a
+  {
+    color: white;
+    font-size: $texto;
+    text-align: center;
+  }
